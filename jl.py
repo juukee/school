@@ -33,7 +33,6 @@ def get_answer(arrangementId):
         print('参数错误')
 
     else:
-        print(type(qlist))
         for list in qlist:
             questionId = list['questionId']
             data = {
